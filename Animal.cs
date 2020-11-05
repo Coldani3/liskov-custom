@@ -9,7 +9,7 @@ namespace liskovcustom
             Console.WriteLine("Born");
         }
 
-        public void MakeNoise()
+        public virtual void MakeNoise()
         {
             Console.WriteLine("breathe");
         }
