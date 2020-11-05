@@ -1,5 +1,5 @@
 using System;
-#this class is for the dog features
+//this class is for the dog features
 namespace liskovcustom
 {
     public class Dog : Animal
