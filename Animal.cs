@@ -13,5 +13,10 @@ namespace liskovcustom
         {
             Console.WriteLine("breathe");
         }
+
+        public virtual bool Alive()
+        {
+            return true;
+        }
     }
 }
