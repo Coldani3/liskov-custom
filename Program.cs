@@ -8,8 +8,12 @@ namespace liskovcustom
         {
             Animal animal1 = new Animal();
             Animal animal2 = new Dog();
-            //error version
+            //error version, mammoth returns different sort of value for .Alive() than the base
+            //yes the other animals do something different for making noise but if they all did the exact same thing there'd
+            //be no point to extending the first class in the first place
+            //################################
             //Animal animal3 = new Mammoth();
+
             //success version
             Animal animal3 = new Cat();
 
@@ -18,6 +22,7 @@ namespace liskovcustom
                 DoTheThing(animal1);
                 DoTheThing(animal2);
                 DoTheThing(animal3);
+                Console.WriteLine("followed liskov");
             }
             else
             {
