@@ -1,5 +1,5 @@
 using System;
-
+#this class is for the cat features
 namespace liskovcustom
 {
     public class Cat : Animal
