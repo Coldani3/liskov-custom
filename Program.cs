@@ -6,7 +6,13 @@ namespace liskovcustom
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Animal animal1 = new Animal();
+            Animal animal2 = new Dog();
+            Animal animal3 = new Cat();
+
+            animal1.MakeNoise();
+            animal2.MakeNoise();
+            animal3.MakeNoise();
         }
 
         public void DoTheThing(Animal animal)
